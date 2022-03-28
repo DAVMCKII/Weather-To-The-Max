@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather to the Max
+    </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="center-title">
+            Weather Dashboard
+        </h1>
+    </header>
+    <!-- display city name -->
+    <section> 
+        <div>
+            <input class= "" id= "search-input" type="text" placeholder="City Name">
+        <button id="search-button">
+            search
+        </button>
+        </div>
+        <div>
+            <h2 id="city-name"></h2>
+            <ul>
+                <li id="temp"></li>
+                <li id="wind"></li>
+                <li id="humidity"></li>
+                <li= id="uv-index"></li>
+            </ul>
+
+
+           
+        </div>
+
+
+    </section>
+    <!-- display city search -->
+    <section>
+        <div>
+            <h2></h2>
+            <form id="type-input">
+
+            </form>
+            <button id="choose-one"></button>
+            <button id="choose-two"></button>
+            <button id="choose-three"></button>
+            <button id="choose-four"></button>
+        </div>
+    </section>
+    <!--display forecast  -->
+    <section>
+        <div id="day-one">
+            <p id="temp1"></p>
+            <p id="wind1"></p>
+            <p id="humidity1"></p>
+        </div>
+        <div id="day-two" ></div>
+        <div id="day-three"></div>
+        <div id="day-four"></div>
+        <div id="day-five"></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
